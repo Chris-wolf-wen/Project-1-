@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+    <!-- 设置包扫描(别名) -->
+<!--    <typeAliases>-->
+<!--        <package name="cn.itcast.pojo"/>-->
+<!--    </typeAliases>-->
+    <!-- 配置映射文件：用来配置sql语句和结果集类型等 -->
+</configuration>
